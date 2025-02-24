@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-header>
+    <mat-card-title>{{personaje.character}}</mat-card-title>
+    <mat-card-subtitle>{{ personaje.quote}}</mat-card-subtitle>
+</mat-card-header>
+<img mat-card-image [src]="personaje | personajeImage " alt="esto no tira" width="30%">
+<button
+mat-button
+mat-rised
+color="primary"
+(click)="detalle(personaje.id)"
+>Ver en detalle</button>
+<button
+mat-button
+mat-rised
+color="warn"
+(click)="actualizar(personaje.id)"
+>Actualizar</button>
+</mat-card>

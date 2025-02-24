@@ -1,0 +1,22 @@
+<mat-sidenav-container fullscreen>
+   
+   <mat-toolbar color="primary">
+    <span class="spacer"></span>
+    <span>{{user?.user}}</span>
+    <button mat-flat-button color="warn" (click)="onLogout()" >
+      Logout
+    </button>
+    <button mat-flat-button color="primary" (click)="listado()" >
+      Listado
+    </button>
+    <button mat-flat-button color="primary" (click)="crearPersonaje()" >
+      Crear personaje
+    </button>
+    <button mat-flat-button color="primary" (click)="filtrado()" >
+      Filtrar personaje
+    </button>
+  </mat-toolbar>
+  <div class="container p-2">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-container>

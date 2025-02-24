@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - Página no encontrada</title>
+    <style>
+    
+        
+        body {
+            background: url('https://wallpapercave.com/uwp/uwp4226832.jpeg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            font-family: 'IM Fell English SC', serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            backdrop-filter: blur(5px);
+        }
+        h1 {
+            font-size: 80px;
+            text-shadow: 3px 3px 10px black;
+        }
+        p {
+            font-size: 24px;
+            max-width: 600px;
+            text-shadow: 2px 2px 8px black;
+        }
+        .kratos {
+            width: 200px;
+            animation: shake 0.5s infinite alternate;
+        }
+        @keyframes shake {
+            from { transform: translateX(-5px); }
+            to { transform: translateX(5px); }
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: crimson;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Error 404!</h1>
+    <p>"Ni los dioses pueden encontrar esta página... Tal vez deberías regresar antes de despertar su ira."</p>
+    <img class="kratos" src="https://media.tenor.com/ibbN_Dvz2WUAAAAM/kratos-heart.gif" alt="Kratos">
+    <br>
+    <a class="btn" href="/personajes">Regresar al Valhalla</a>
+</body>
+</html>

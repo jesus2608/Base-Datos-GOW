@@ -1,0 +1,20 @@
+
+<div class="flex flex-column centrar">
+   <h2> <span class="text-lg mb-4">Login</span></h2><br>
+    <mat-form-field>
+      <mat-label>Usuario</mat-label>
+      <input type="text" matInput placeholder="Nombre de usuario">
+    </mat-form-field><br>
+    <mat-form-field>
+      <mat-label>Contraseña</mat-label>
+      <input type="password" matInput placeholder="Contraseña"><br>
+    </mat-form-field> <br>
+    <button mat-flat-button color="primary"
+    (click)="onLogin()">
+    <mat-icon>save</mat-icon>
+    Ingresar
+  </button><br>
+  </div>
+  <div class="flex justify-content-end mt-5 centrar1">
+    <a routerLink="/auth/new-account">¿No tienes cuenta?</a>
+  </div>

@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.centrar {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp14791530.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.centrar1 {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+@font-face {
+    font-family: 'god';
+    src: url('/GODOFWAR.TTF') format('truetype'); /* Reemplaza 'ruta/a/mi-fuente-personalizada.ttf' con la ruta real de tu archivo de fuente */
+}
+* {
+    font-family: god;
+   
+}

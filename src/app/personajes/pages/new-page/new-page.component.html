@@ -1,0 +1,104 @@
+<h3>
+    {{ personaje.id ? 'Editar' : 'Agregar' }}
+    Dios
+    <small *ngIf="personaje.id"> {{personaje.character }}</small>
+  </h3>
+  
+  <mat-divider class="mb-2"></mat-divider>
+  
+  <div class="grid">
+    <div class="col-12 sm:col-6">
+      <mat-card>
+        <mat-card-content>
+          <form class="grid" [formGroup]="personajeForm" (ngSubmit)="onSubmit()">
+            <mat-form-field class="col-12 sm:col-6">
+              <mat-label>character</mat-label>
+              <input
+                matInput
+                type="text"
+                required
+                formControlName="character"
+              />
+            </mat-form-field>
+            <mat-form-field class="col-12 sm:col-6">
+              <mat-label>voiceActor</mat-label>
+              <input
+                matInput
+                type="text"
+                required
+                formControlName="voiceActor"
+              />
+            </mat-form-field>
+            <mat-form-field class="col-12">
+              <mat-label>appearsIn</mat-label>
+              <input
+                matInput
+                type="text"
+                required
+                formControlName="appearsIn"
+              />
+            </mat-form-field>
+            <mat-form-field class="col-12">
+              <mat-label>Alias/es</mat-label>
+              <input
+                matInput
+                type="text"
+                required
+                formControlName="alias"
+              />
+            </mat-form-field>
+            <mat-form-field class="col-12">
+              <mat-label>Razas</mat-label>
+              <input
+                matInput
+                type="text"
+                required
+                formControlName="species"
+              />
+            </mat-form-field>
+            <mat-form-field class="col-12">
+              <mat-label>about</mat-label>
+              <input
+                matInput
+                type="text"
+                required
+                formControlName="about"
+              />
+            </mat-form-field>
+            <mat-form-field class="col-12">
+              <mat-label>Frase</mat-label>
+              <input
+                matInput
+                type="text"
+                required
+                formControlName="quote"
+              />
+            </mat-form-field>
+            <mat-form-field class="col-12">
+              <mat-label>Imagen</mat-label>
+              <input
+                matInput
+                type="text"
+                formControlName="img"
+              />
+            </mat-form-field>
+  
+          </form>
+  
+          <div class="flex justify-content-between">
+            <button mat-flat-button
+            *ngIf="personaje.id"
+            (click)="onDelete()"
+            > Borrar </button>
+            <span></span>
+            <button mat-flat-button (click)="onSubmit()"> <mat-icon>save</mat-icon> Guardar </button>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div class="col-12 sm:col-6">
+      <mat-card>
+        <img [src]="personaje | personajeImage" alt="dioses" mat-card-image width="50%">
+      </mat-card>
+    </div>
+  </div>

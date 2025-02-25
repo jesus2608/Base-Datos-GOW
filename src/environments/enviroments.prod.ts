@@ -1,4 +1,4 @@
 export const environments = {
-    baseURL: 'http://dominio-pagina.com/api'
+    baseURL: 'http://localhost:3000/api'
   }
   

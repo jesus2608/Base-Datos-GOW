@@ -4,6 +4,8 @@ const jsonServer = require("json-server");
 const app = express();
 const apiRouter = jsonServer.router("db.json"); 
 const middlewares = jsonServer.defaults();
+const cors = require("cors"); 
+app.use(cors());
 app.use("/api", middlewares, apiRouter); 
 app.use(express.static(path.join(__dirname, "dist/practica-final/browser")));
 app.get("*", (req, res) => {

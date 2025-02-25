@@ -14,7 +14,7 @@
       "voiceActor": "Christopher Judge",
       "appearsIn": "God of War: Ascension, God of War: Chains of Olympus, God of War, God of War: Betrayal, God of War: Ghost of Sparta, God of War II, God of War III, God of War (2018), God of War: Ragnarök",
       "Alias/es": "Spartan, The God Slayer, Lord Kratos",
-      "species": "Demigod",
+      "species": "si",
       "gender": "Male",
       "about": "Kratos is the playable protagonist of the God of War series. Born in Sparta, Kratos was a respected soldier and a Spartan General, up until he lost his wife and daughter when he killed them, albeit by accident, under Ares' command, earning him the nickname of the 'Ghost of Sparta', after which he renounced his service to the War God, eventually killing him and ascending to Godhood by becoming the new 'God of War', before exacting revenge against his father, the Olympians and the Titans who betrayed him. After successfully exacting his vengeance, Kratos escaped into the world of Norse Gods by settling down in Midgard in Ancient Norway where he married another woman named Faye and bore a son named Atreus who together, after the boy's mother’s death, would embark on a journey to spread her ashes at the highest peak of all the nine realms.",
       "quote": "We will be the gods we choose to be, not those who have been. Who I was is not who you will be. We must be better. –Kratos to Atreus",
@@ -247,18 +247,6 @@
       "gender": "",
       "about": "lo hicieron cachitos",
       "quote": "ahora estas en mis dominos mortal"
-    },
-    {
-      "id": 24,
-      "img": "https://i.ytimg.com/vi/bh0Yp0LgWmM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAsqjCXtS6im7rwmRZY_gJZM_Stlg",
-      "character": "Hefesto",
-      "voiceActor": "jaun",
-      "appearsIn": "God of war III",
-      "alias": "Dios Herrero",
-      "species": "god",
-      "gender": "",
-      "about": "lo machetearon",
-      "quote": "por favor protegela mi bella pandora protegela"
     },
     {
       "id": 25,

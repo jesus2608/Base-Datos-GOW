@@ -90,7 +90,8 @@
       "species": "Jötunn (Serpent)",
       "gender": "Male",
       "about": "Jörmungandr, also known as the World Serpent, is a mythical Jötunn serpent destined to fight Thor come Ragnarök. He becomes an ally of Kratos and Atreus after the pair awaken him from deep slumber within the Lake of Nine.",
-      "quote": "NA"
+      "quote": "NA",
+      "alias": "sdfsdf"
     },
     {
       "id": 8,
@@ -119,14 +120,15 @@
     {
       "id": 10,
       "img": "https://media.vandal.net/i/620x775/90451/god-of-war-ragnarok-202191010433952_4.jpg",
-      "character": "Thor",
+      "character": "Thoranzo",
       "voiceActor": "Ryan Hurst",
       "appearsIn": "God of War (2018)",
       "Alias/es": "Sweaty Bawbag (Mimir), Biggest Butchering Bastard in the 9 Realms (Mimir), Big Idiot (Brok), Fat Dobber (Mimir), Thunder Lummox (Mimir), Brother (Baldur), Father (Magni & Modi), Fool (Kratos), Idiot (Atreus)",
       "species": "1/2 Jötunn, 1/2 God (Aesir)",
       "gender": "Male",
       "about": "Thor (Old Norse: Þórr) is the Norse Aesir God of thunder, lightning, storms, and strength. He is the son of Odin and Fjörgyn, husband of Sif, brother of Meili, half-brother of Baldur, Týr, Hodr, and Bragi, and the father of Magni, Modi, and a daughter.",
-      "quote": "You seem like a calm and reasonable person. Are you a calm and reasonable person? –Thor, God of War: Ragnarök"
+      "quote": "You seem like a calm and reasonable person. Are you a calm and reasonable person? –Thor, God of War: Ragnarök",
+      "alias": "sdf"
     },
     {
       "id": 11,

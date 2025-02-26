@@ -261,6 +261,18 @@
       "gender": "",
       "about": "El padre de todos en la mitologia nordica",
       "quote": "Acaso a ti te ha venerado algun dios no no conoces esa clase de amor"
+    },
+    {
+      "id": 26,
+      "img": "sdf",
+      "character": "ss",
+      "voiceActor": "fs",
+      "appearsIn": "df",
+      "alias": "sdf",
+      "species": "sdf",
+      "gender": "",
+      "about": "sdf",
+      "quote": "f"
     }
   ]
 }

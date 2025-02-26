@@ -1,3 +1,3 @@
 export const enviroments = {
-    baseURL: 'http://localhost:3000'
+    baseURL: 'https://backend-8t4v.onrender.com/'
 }

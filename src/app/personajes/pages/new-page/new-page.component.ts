@@ -25,6 +25,7 @@ export class NewPageComponent implements OnInit{
         return;
       })
   }
+  private static contador : number = 30;
   constructor(private service: PersonajeService, 
     private rutaActivada: ActivatedRoute,
     private router:Router,
@@ -35,7 +36,7 @@ export class NewPageComponent implements OnInit{
     this.snackbar.open(message,'done', { duration: 2000})
   }
   public personajeForm = new FormGroup({
-    id: new FormControl<Number>(0),
+    id: new FormControl<Number>(NewPageComponent.contador++),
     img: new FormControl<string>(''),
     character: new FormControl<string>('', { nonNullable: true }),
     voiceActor: new FormControl<string>(''),

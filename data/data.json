@@ -273,6 +273,30 @@
       "gender": "",
       "about": "sdf",
       "quote": "f"
+    },
+    {
+      "id": 27,
+      "img": "sdf",
+      "character": "sdf",
+      "voiceActor": "sdf",
+      "appearsIn": "sdf",
+      "alias": "sdf",
+      "species": "sdf",
+      "gender": "",
+      "about": "sdf",
+      "quote": "sdf"
+    },
+    {
+      "id": 28,
+      "img": "sdf",
+      "character": "sdf",
+      "voiceActor": "sdf",
+      "appearsIn": "sdf",
+      "alias": "sdf",
+      "species": "sdf",
+      "gender": "",
+      "about": "sdf",
+      "quote": "df"
     }
   ]
 }

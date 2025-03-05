@@ -4,7 +4,7 @@ export interface Personajes {
 }
 
 export interface Datum {
-    id:         number;
+    id:         string;
     img:        string;
     character:  string;
     voiceActor: string;

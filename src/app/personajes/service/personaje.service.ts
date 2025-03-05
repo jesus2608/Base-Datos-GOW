@@ -7,7 +7,8 @@ import { Datum, Personajes } from '../interfaces/personaje.interface';
 @Injectable({providedIn: 'root'})
 export class PersonajeService {
     private baseURL: string = enviroments.baseURL;
-    constructor(private httpClient: HttpClient) { }
+    constructor(private httpClient: HttpClient) {console.log("Constructor servicio"+this.contador); }
+    public contador : number = Math.random()*1000000000000000000000000000;
     getPersonajes():Observable<Datum[]>{
         console.log(this.baseURL);
         return this.httpClient.get<Datum[]>(`${this.baseURL}/personajes`);
@@ -25,7 +26,7 @@ export class PersonajeService {
         if(!personaje.id) throw Error('No has ingresado un personaje');
         return this.httpClient.patch<Datum>(`${this.baseURL}/personajes/${personaje.id}`,personaje)
     }
-    deletePersonaje( id: number ): Observable<boolean> {
+    deletePersonaje( id: string ): Observable<boolean> {
 
         return this.httpClient.delete(`${ this.baseURL }/personajes/${ id }`)
           .pipe(

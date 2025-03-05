@@ -25,7 +25,7 @@ export class NewPageComponent implements OnInit{
         return;
       })
   }
-  private static contador : number = 30;
+
   constructor(private service: PersonajeService, 
     private rutaActivada: ActivatedRoute,
     private router:Router,
@@ -36,7 +36,7 @@ export class NewPageComponent implements OnInit{
     this.snackbar.open(message,'done', { duration: 2000})
   }
   public personajeForm = new FormGroup({
-    id: new FormControl<Number>(NewPageComponent.contador++),
+    id: new FormControl<string>(''),
     img: new FormControl<string>(''),
     character: new FormControl<string>('', { nonNullable: true }),
     voiceActor: new FormControl<string>(''),
@@ -60,6 +60,8 @@ export class NewPageComponent implements OnInit{
         this.showSnackbar(`${persona.character} actualizado`)
       })
     }else{
+      this.personaje.id = this.service.contador.toString();
+      console.log(this.service.contador);
     this.service.addPersonaje(this.personaje).subscribe(persona=>{
       this.router.navigate(['/personajes/edit', this.personaje.id]);
       this.showSnackbar(`${persona.character} creado`)

@@ -15,10 +15,10 @@ ngOnInit(): void {
 @Input()
 public personaje!:Datum;
 
-public detalle(id: number){
+public detalle(id: string){
 window.location.href=("/personajes/"+id); 
 }
-public actualizar(id:number){
+public actualizar(id:string){
   window.location.href=("/personajes/edit/"+id);
 }
 
